@@ -1,7 +1,7 @@
 # Rock Paper Scissors Lizard Spock Game
 
 This is a web-based game built using HTML, CSS, and JavaScript. 
-It a game of chance that expands of the classic Rock Paper Scissors game, inspired by the TV show "The Big Bang Theory."
+It a game of chance that expands the classic Rock Paper Scissors game, inspired by the TV show "The Big Bang Theory."
 It is first used to settle a dispute about what to watch on TV between Sheldon and Raj in "The Lizard-Spock Expansion" Episode.
 
 ## Overview
