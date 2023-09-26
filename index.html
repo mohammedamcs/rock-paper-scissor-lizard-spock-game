@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Lizard Spock</title>
+
+    <!-- Main CSS File  -->
+    <link rel="stylesheet" href="./master.css">
+
+    <!-- Goggle Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="game">
+            <header>
+                <h1>Rock Paper Scissors Lizard Spock</h1>
+            </header>
+            <main>
+                <div class="selections">
+                    <div class="selection">
+                        <div class="head">your selection</div>
+                        <div class="image">
+                            <img src="./images/rock.png" alt="rock-icon" id="user">
+                        </div>
+                    </div>
+                    <div class="selection">
+                        <div class="head">computer's selection</div>
+                        <div class="image">
+                            <img src="./images/paper.png" alt="paper-icon" id="computer">
+                        </div>
+                    </div>
+                </div>
+                <div class="msg">
+                    <span class="draw"></span>
+                </div>
+                <div class="actions">
+                    <button name="rock">
+                        <img src="./images/rock.png" alt="rock-icon" name="rock">
+                    </button>
+                    <button name="paper">
+                        <img src="./images/paper.png" alt="paper-icon" name="paper">
+                    </button>
+                    <button name="scissors">
+                        <img src="./images/scissors.png" alt="scissors-icon" name="scissors">
+                    </button>
+                    <button name="lizard">
+                        <img src="./images/lizard.png" alt="lizard-icon" name="lizard">
+                    </button>
+                    <button name="spock">
+                        <img src="./images/spock.png" alt="spock-icon" name="spock">
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="./game.js"></script>
+</body>
+
+</html>

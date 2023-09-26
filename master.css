@@ -1,0 +1,150 @@
+/* Start Global Variables  */
+:root {
+  --primary-backgroundColor: #2b3452;
+  --secondary-backgroundColor: #282828;
+  --secondary-alt-backgroundColor: #0a0a0a;
+}
+
+/* End Global Variables  */
+/* Start Global Rules  */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik Bubbles", cursive;
+}
+
+.game-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--primary-backgroundColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ban-click {
+  pointer-events: none;
+}
+
+/* End Global Rules  */
+
+/* Start Game Styling  */
+.game {
+  width: 90%;
+  height: 100%;
+  padding: 30px 0;
+}
+
+.game header {
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.game header h1 {
+  letter-spacing: 2px;
+  font-size: 50px;
+  color: #f45050;
+}
+.game main > div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+/* End Game Styling  */
+
+/* Start Selections Styling  */
+
+.game main .selections .selection {
+  background-color: var(--secondary-backgroundColor);
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.game main .selections .selection .head {
+  background-color: var(--secondary-alt-backgroundColor);
+  border-radius: 15px 15px 0 0;
+  padding: 4px 8px;
+  color: #fff;
+}
+
+.game main .selections .selection .image {
+  padding: 30px;
+}
+
+/* End  Selections Styling  */
+
+/* Start Msg Styling  */
+.msg {
+  margin-top: 20px;
+  height: 50px;
+  text-align: center;
+}
+
+.msg span {
+  font-size: 40px;
+}
+
+.msg span.won {
+  color: #367e18;
+}
+
+.msg span.loose {
+  color: #df2e38;
+}
+
+.msg span.draw {
+  color: #e8f9fd;
+}
+/* End Msg Styling  */
+
+/* Start Actions Styling  */
+.game main .actions {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.game main .actions button {
+  background-color: var(--secondary-backgroundColor);
+  border: none;
+  padding: 10px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid var(--secondary-backgroundColor);
+}
+
+.game main .actions button:hover {
+  border-color: #f45050;
+}
+/* End Actions Styling  */
+
+
+@media (max-width:520px) {
+    .game header h1 {
+        font-size: 20px;
+    }
+
+    .msg span {
+        font-size: 30px;
+      }
+}
